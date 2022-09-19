@@ -1,5 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../blocks/page/page.css');
+@import url('../blocks/rotation/rotation.css');
 
 /* Header */
 @import url('../blocks/header/header.css');
@@ -18,6 +19,14 @@
 @import url('../blocks/two-columns/__main-text/two-columns__main-text.css');
 @import url('../blocks/two-columns/__paragraph/two-columns__paragraph.css');
 @import url('../blocks/two-columns/__span-accent/two-columns__span-accent.css');
+
+/* Section Techniques */
+@import url('../blocks/techniques/techniques.css');
+@import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/__item/cards__item.css');
+@import url('../blocks/cards/__image/cards__image.css');
+@import url('../blocks/cards/__title/cards__title.css');
+@import url('../blocks/cards/__description/cards__description.css');
 
 /* Section Digits */
 @import url('../blocks/digits/digits.css');
@@ -52,3 +61,7 @@
 @import url('../blocks/footer/__column-links/footer__column-links.css');
 @import url('../blocks/footer/__column-link/footer__column-link.css');
 @import url('../blocks/footer/__social-icon/footer_social-icon.css');
+
+* {
+  border: 1px solid hotpink;
+}

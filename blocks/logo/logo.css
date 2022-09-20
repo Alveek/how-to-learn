@@ -2,4 +2,9 @@
   width: 228px;
   height: 32px;
   z-index: 1;
+  transition: opacity .2s linear;
+}
+
+.logo:hover {
+  opacity: 0.6;
 }
